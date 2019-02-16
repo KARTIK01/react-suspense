@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import MyCache from './my-suspense/MyCache';
+import InternalSuspense from './my-suspense/InternalLoader';
 import Demo from './syntax/Demo';
 
 function App() {
   let component;
   if(window.location.href.indexOf('internal-working') > 0) {
-    component = <MyCache/>
+    component = <InternalSuspense/>
   } else {
     component = <Demo/>
   }

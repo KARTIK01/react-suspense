@@ -1,6 +1,7 @@
 import React from 'react';
 import Loader from '../syntax/Loader';
 import Button from '../button/Button';
+import InternalSuspense from './InternalSuspense';
 
 const loadResource = id => {
   return new Promise((resolve, reject) => {
@@ -19,7 +20,10 @@ function read(key) {
         cache[key] = data;
         return data;
       });
-  throw  suspended;
+  if(!window.suspended) {
+    window.suspended =  suspended
+  }
+  throw suspended;
 }
 
 function BigComponent() {
@@ -38,9 +42,9 @@ function Demo() {
         <Button onClick={() => setShow(!show)} >TOGGLE</Button>
         {
           show &&
-          (<React.Suspense fallback={<Loader />}>
+          (<InternalSuspense fallback={<Loader />}>
             <BigComponent/>
-          </React.Suspense>)
+          </InternalSuspense>)
         }
         <br />
         <a href='/'>
