@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{20:function(n,e,o){"use strict";o.r(e);var t=o(0),a=o.n(t);function i(n){return a.a.createElement("div",null,"DynamicLoadingComponent")}i.defaultProps={},e.default=i}}]);
-//# sourceMappingURL=4.358f648b.chunk.js.map
