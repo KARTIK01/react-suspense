@@ -1,0 +1,9 @@
+const cache = {
+
+  map: {},
+
+  read() {
+
+}
+
+} ;

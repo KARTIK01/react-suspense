@@ -1,0 +1,18 @@
+.scrollContainer {
+    max-height: 200px;
+    height: 200px;
+    border: 2px solid darkgrey;
+    padding: 10px;
+    align-items: center;
+    width: 300px;
+    margin-top: 20px;
+    margin: auto;
+    border-radius: 6px;
+    overflow: scroll;
+}
+
+.scrollContainer div {
+    border-bottom: 1px solid darkgrey;
+    height: 26px;
+    margin: 6px;
+}
