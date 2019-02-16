@@ -1,8 +1,6 @@
 import React from 'react';
 import Button from '../button/Button';
 import Loader from './Loader';
-
-// import DynamicLoadingComponent from './DynamicLoadingComponent';
 const BigComponent = React.lazy(() => import('./BigComponent'));
 
 function Demo() {
@@ -16,6 +14,10 @@ function Demo() {
             <BigComponent/>
           </React.Suspense>)
         }
+        <br />
+        <a href='/internal-working'>
+          Internal Working
+        </a>
       </React.Fragment>
   )
 }

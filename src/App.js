@@ -1,16 +1,20 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './App.css';
-import Demo from './final/Demo';
-import Demo2 from './my-suspense/Demo';
+import MyCache from './my-suspense/MyCache';
+import Demo from './syntax/Demo';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-       <Demo />
-      </div>
-    );
+function App() {
+  let component;
+  if(window.location.href.indexOf('internal-working') > 0) {
+    component = <MyCache/>
+  } else {
+    component = <Demo/>
   }
+  return (
+      <div className="App">
+        {component}
+      </div>
+  );
 }
 
 export default App;
