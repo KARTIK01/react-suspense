@@ -16,8 +16,10 @@ class InternalSuspense extends Component {
   }
 
   componentDidCatch(error, info) {
+    console.log('componentDidCatch');
    this.setState({hasError: true});
-    window.suspended.then(() => this.setState({hasError: false}));
+    window.suspended
+        .then(() => this.setState({hasError: false}));
   }
 
 }

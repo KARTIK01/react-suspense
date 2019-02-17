@@ -6,6 +6,7 @@ const BigComponent = React.lazy(() => import('./BigComponent'));
 
 function Demo() {
   const [ show, setShow] = React.useState(false);
+
   return (
       <React.Fragment>
         <Button onClick={() => setShow(!show)} >TOGGLE</Button>
@@ -19,6 +20,7 @@ function Demo() {
         <Link to='/internal-working'>Internal Working</Link>
       </React.Fragment>
   )
+
 }
 
 Demo.propTypes = {};
