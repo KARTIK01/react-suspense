@@ -1,17 +1,17 @@
 {
-  "main.css": "/react-suspense/static/css/main.b4fb495b.chunk.css",
-  "main.js": "/react-suspense/static/js/main.fc5c7bbf.chunk.js",
-  "main.js.map": "/react-suspense/static/js/main.fc5c7bbf.chunk.js.map",
-  "runtime~main.js": "/react-suspense/static/js/runtime~main.4a0d515e.js",
-  "runtime~main.js.map": "/react-suspense/static/js/runtime~main.4a0d515e.js.map",
-  "static/js/2.5b0d2de0.chunk.js": "/react-suspense/static/js/2.5b0d2de0.chunk.js",
-  "static/js/2.5b0d2de0.chunk.js.map": "/react-suspense/static/js/2.5b0d2de0.chunk.js.map",
+  "main.css": "/react-suspense/static/css/main.060990f2.chunk.css",
+  "main.js": "/react-suspense/static/js/main.47ddef37.chunk.js",
+  "main.js.map": "/react-suspense/static/js/main.47ddef37.chunk.js.map",
+  "runtime~main.js": "/react-suspense/static/js/runtime~main.c0881f6c.js",
+  "runtime~main.js.map": "/react-suspense/static/js/runtime~main.c0881f6c.js.map",
+  "static/js/2.cb0b1f67.chunk.js": "/react-suspense/static/js/2.cb0b1f67.chunk.js",
+  "static/js/2.cb0b1f67.chunk.js.map": "/react-suspense/static/js/2.cb0b1f67.chunk.js.map",
   "static/css/3.b45cfbb8.chunk.css": "/react-suspense/static/css/3.b45cfbb8.chunk.css",
-  "static/js/3.260be4a5.chunk.js": "/react-suspense/static/js/3.260be4a5.chunk.js",
-  "static/js/3.260be4a5.chunk.js.map": "/react-suspense/static/js/3.260be4a5.chunk.js.map",
+  "static/js/3.228dbec2.chunk.js": "/react-suspense/static/js/3.228dbec2.chunk.js",
+  "static/js/3.228dbec2.chunk.js.map": "/react-suspense/static/js/3.228dbec2.chunk.js.map",
   "index.html": "/react-suspense/index.html",
-  "precache-manifest.44c1064a5ab29656134c1f5e5034b820.js": "/react-suspense/precache-manifest.44c1064a5ab29656134c1f5e5034b820.js",
+  "precache-manifest.d6ca35b0ab0a570da7060ebfc0bb059b.js": "/react-suspense/precache-manifest.d6ca35b0ab0a570da7060ebfc0bb059b.js",
   "service-worker.js": "/react-suspense/service-worker.js",
   "static/css/3.b45cfbb8.chunk.css.map": "/react-suspense/static/css/3.b45cfbb8.chunk.css.map",
-  "static/css/main.b4fb495b.chunk.css.map": "/react-suspense/static/css/main.b4fb495b.chunk.css.map"
+  "static/css/main.060990f2.chunk.css.map": "/react-suspense/static/css/main.060990f2.chunk.css.map"
 }
