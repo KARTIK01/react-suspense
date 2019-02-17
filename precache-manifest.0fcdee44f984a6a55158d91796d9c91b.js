@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/react-suspense/static/js/runtime~main.c0881f6c.js"
   },
   {
-    "revision": "47ddef370cf1395c8b96",
-    "url": "/react-suspense/static/js/main.47ddef37.chunk.js"
+    "revision": "be49435f66568e648cbc",
+    "url": "/react-suspense/static/js/main.be49435f.chunk.js"
   },
   {
     "revision": "228dbec20a08129d3430",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/react-suspense/static/js/2.cb0b1f67.chunk.js"
   },
   {
-    "revision": "47ddef370cf1395c8b96",
+    "revision": "be49435f66568e648cbc",
     "url": "/react-suspense/static/css/main.060990f2.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/react-suspense/static/css/3.b45cfbb8.chunk.css"
   },
   {
-    "revision": "d797939677a26499b65736e150602101",
+    "revision": "ff0e1fed693a9150842e956dbf8a7c65",
     "url": "/react-suspense/index.html"
   }
 ];

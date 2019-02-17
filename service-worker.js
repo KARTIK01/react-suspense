@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-suspense/precache-manifest.d6ca35b0ab0a570da7060ebfc0bb059b.js"
+  "/react-suspense/precache-manifest.0fcdee44f984a6a55158d91796d9c91b.js"
 );
 
 workbox.clientsClaim();
