@@ -47,7 +47,7 @@ function Demo() {
           </InternalSuspense>)
         }
         <br />
-        <a href='/'>
+        <a href={`${window.location.origin}`}>
           Syntax Demo
         </a>
       </React.Fragment>

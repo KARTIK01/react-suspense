@@ -15,7 +15,7 @@ function Demo() {
           </React.Suspense>)
         }
         <br />
-        <a href='/internal-working'>
+        <a href={`${window.location.href}internal-working`}>
           Internal Working
         </a>
       </React.Fragment>
