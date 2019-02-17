@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://kartik01.github.io/react-suspense/",
   "dependencies": {
+    "@reach/router": "^1.2.1",
     "lodash": "^4.17.11",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",

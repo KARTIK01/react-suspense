@@ -2,6 +2,7 @@ import React from 'react';
 import Loader from '../syntax/Loader';
 import Button from '../button/Button';
 import InternalSuspense from './InternalSuspense';
+import {Link} from '@reach/router';
 
 const loadResource = id => {
   return new Promise((resolve, reject) => {
@@ -47,9 +48,7 @@ function Demo() {
           </InternalSuspense>)
         }
         <br />
-        <a href={`${window.location.origin}`}>
-          Syntax Demo
-        </a>
+        <Link to='/'>Syntax Demo</Link>
       </React.Fragment>
   )
 }
